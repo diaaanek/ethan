@@ -1,23 +1,102 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div class='wrapper'>
+        <h2 class='holidays-title'>Sup bb</h2>
+        <div class='scene'>
+          <div class='xmas-tree'>
+            <div class='tree-star'></div>
+            <div class='tree-leaves'>
+              <div class='tree-part'>
+                <div class='tree-lights left'>
+                  <div class='light-bulb red'></div>
+                  <div class='light-bulb yew'></div>
+                  <div class='light-bulb purple'></div>
+                  <div class='light-bulb blue'></div>
+                </div>
+                <div class='tree-lights right'>
+                  <div class='light-bulb red'></div>
+                  <div class='light-bulb yew'></div>
+                  <div class='light-bulb purple'></div>
+                  <div class='light-bulb blue'></div>
+                </div>
+              </div>
+              <div class='tree-part'>
+                <div class='tree-lights left'>
+                  <div class='light-bulb red'></div>
+                  <div class='light-bulb yew'></div>
+                  <div class='light-bulb purple'></div>
+                  <div class='light-bulb blue'></div>
+                </div>
+                <div class='tree-lights right'>
+                  <div class='light-bulb red'></div>
+                  <div class='light-bulb yew'></div>
+                  <div class='light-bulb purple'></div>
+                  <div class='light-bulb blue'></div>
+                </div>
+              </div>
+              <div class='tree-part'>
+                <div class='tree-lights left'>
+                  <div class='light-bulb red'></div>
+                  <div class='light-bulb yew'></div>
+                  <div class='light-bulb purple'></div>
+                  <div class='light-bulb blue'></div>
+                </div>
+                <div class='tree-lights right'>
+                  <div class='light-bulb red'></div>
+                  <div class='light-bulb yew'></div>
+                  <div class='light-bulb purple'></div>
+                  <div class='light-bulb blue'></div>
+                </div>
+              </div>
+            </div>
+            <div class='tree-base'>
+              <div class='tree-stalk'></div>
+              <div class='tree-jar'></div>
+            </div>
+          </div>
+          <div class='room-window'>
+            <div class='xmas-sky'>
+              <div class='snow'></div>
+              <div class='snow-ground'></div>
+              <div class='santa-claus'>
+                <div class='sc-head'>
+                  <div class='sc-hat'>
+                    <div class='hat-tip'></div>
+                  </div>
+                  <div class='eyes'></div>
+                  <div class='nose'></div>
+                  <div class='beard'></div>
+                  <div class='ears'>
+                    <div class='ear left'></div>
+                    <div class='ear right'></div>
+                  </div>
+                </div>
+                <div class='sc-body'></div>
+              </div>
+            </div>
+          </div>
+          <div class='xmas-gifts'>
+            <div class='xmas-gift square'>
+              <div class='tie-wrap'>
+                <div class='tie'></div>
+                <div class='tie reflected'></div>
+              </div>
+            </div>
+            <div class='xmas-gift rectangular'>
+              <div class='tie-wrap'>
+                <div class='tie'></div>
+                <div class='tie reflected'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='ground'></div>
+      </div>
     </div>
   );
 }
