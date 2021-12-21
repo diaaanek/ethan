@@ -2,101 +2,69 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className='App'>
+    <>
       <div class='wrapper'>
-        <h2 class='holidays-title'>Sup bb</h2>
-        <div class='scene'>
-          <div class='xmas-tree'>
-            <div class='tree-star'></div>
-            <div class='tree-leaves'>
-              <div class='tree-part'>
-                <div class='tree-lights left'>
-                  <div class='light-bulb red'></div>
-                  <div class='light-bulb yew'></div>
-                  <div class='light-bulb purple'></div>
-                  <div class='light-bulb blue'></div>
-                </div>
-                <div class='tree-lights right'>
-                  <div class='light-bulb red'></div>
-                  <div class='light-bulb yew'></div>
-                  <div class='light-bulb purple'></div>
-                  <div class='light-bulb blue'></div>
-                </div>
-              </div>
-              <div class='tree-part'>
-                <div class='tree-lights left'>
-                  <div class='light-bulb red'></div>
-                  <div class='light-bulb yew'></div>
-                  <div class='light-bulb purple'></div>
-                  <div class='light-bulb blue'></div>
-                </div>
-                <div class='tree-lights right'>
-                  <div class='light-bulb red'></div>
-                  <div class='light-bulb yew'></div>
-                  <div class='light-bulb purple'></div>
-                  <div class='light-bulb blue'></div>
-                </div>
-              </div>
-              <div class='tree-part'>
-                <div class='tree-lights left'>
-                  <div class='light-bulb red'></div>
-                  <div class='light-bulb yew'></div>
-                  <div class='light-bulb purple'></div>
-                  <div class='light-bulb blue'></div>
-                </div>
-                <div class='tree-lights right'>
-                  <div class='light-bulb red'></div>
-                  <div class='light-bulb yew'></div>
-                  <div class='light-bulb purple'></div>
-                  <div class='light-bulb blue'></div>
-                </div>
-              </div>
-            </div>
-            <div class='tree-base'>
-              <div class='tree-stalk'></div>
-              <div class='tree-jar'></div>
-            </div>
-          </div>
-          <div class='room-window'>
-            <div class='xmas-sky'>
-              <div class='snow'></div>
-              <div class='snow-ground'></div>
-              <div class='santa-claus'>
-                <div class='sc-head'>
-                  <div class='sc-hat'>
-                    <div class='hat-tip'></div>
-                  </div>
-                  <div class='eyes'></div>
-                  <div class='nose'></div>
-                  <div class='beard'></div>
-                  <div class='ears'>
-                    <div class='ear left'></div>
-                    <div class='ear right'></div>
+        <div class='card'>
+          <div class='envelope'></div>
+          <h1>
+            Hey <em>Ethan</em> What's <em>up?</em>
+          </h1>
+          {/* <div class='heart'></div> */}
+        </div>
+        <div class='rudolph'>
+          <div class='body'>
+            <div class='neck-pt1'>
+              <div class='neck-pt2'>
+                <div class='neck-pt3'>
+                  <div class='head'>
+                    <div class='l-horn'></div>
+                    <div class='r-horn'></div>
+                    <div class='l-ear'></div>
+                    <div class='r-ear'></div>
+                    <div class='l-eye'></div>
+                    <div class='u-mouth'>
+                      <div class='nose'></div>
+                    </div>
+                    <div class='l-mouth'></div>
                   </div>
                 </div>
-                <div class='sc-body'></div>
               </div>
             </div>
-          </div>
-          <div class='xmas-gifts'>
-            <div class='xmas-gift square'>
-              <div class='tie-wrap'>
-                <div class='tie'></div>
-                <div class='tie reflected'></div>
+            <div class='fl-leg-pt1'>
+              <div class='fl-leg-pt2'>
+                <div class='fl-leg-pt3'>
+                  <div class='fl-leg-pt4'></div>
+                </div>
               </div>
             </div>
-            <div class='xmas-gift rectangular'>
-              <div class='tie-wrap'>
-                <div class='tie'></div>
-                <div class='tie reflected'></div>
+            <div class='fr-leg-pt1'>
+              <div class='fr-leg-pt2'>
+                <div class='fr-leg-pt3'>
+                  <div class='fr-leg-pt4'></div>
+                </div>
               </div>
+            </div>
+            <div class='bl-leg-pt1'>
+              <div class='bl-leg-pt2'>
+                <div class='bl-leg-pt3'>
+                  <div class='bl-leg-pt4'></div>
+                </div>
+              </div>
+            </div>
+            <div class='br-leg-pt1'>
+              <div class='br-leg-pt2'>
+                <div class='br-leg-pt3'>
+                  <div class='br-leg-pt4'></div>
+                </div>
+              </div>
+            </div>
+            <div class='tail-pt1'>
+              <div class='tail-pt2'></div>
             </div>
           </div>
         </div>
-
-        <div class='ground'></div>
       </div>
-    </div>
+    </>
   );
 }
 
