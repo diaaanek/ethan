@@ -44,7 +44,7 @@ function App() {
             </h1>
             <h1 class='static-text'>hey ethan</h1>
           </div>
-          <div class='heart'></div>
+          {/* <div class='heart'></div> */}
         </div>
       </div>
     </>
