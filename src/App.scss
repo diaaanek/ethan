@@ -9,6 +9,7 @@
   width: 100%;
   justify-content: center;
 }
+
 .card,
 .envelope {
   background: #fff;
@@ -25,10 +26,8 @@
   background: #cb231c;
   box-shadow: 2 3px 2px rgba(0, 0, 0, 0.11);
   margin: -2em -2em;
-
   position: absolute;
   transform: rotate(-11deg);
-  z-index: -1;
 }
 
 h1 {
@@ -102,7 +101,7 @@ $timing: linear;
 .rudolph {
   //outline: 1px solid $w;
   top: 50%;
-  margin-top: 125px;
+  margin-top: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 25em;

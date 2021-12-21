@@ -5,11 +5,13 @@ function App() {
     <>
       <div class='wrapper'>
         <div class='card'>
-          <div class='envelope'></div>
+          <div class='envelope'>
+            <h1 style={{ color: "white", textAlign: "center" }}>Top Secret</h1>
+          </div>
           <h1>
-            Hey <em>Ethan</em> What's <em>up?</em>
+            Hey <em>Ethan</em> What's <em>up</em>
           </h1>
-          {/* <div class='heart'></div> */}
+          <div class='heart'></div>
         </div>
         <div class='rudolph'>
           <div class='body'>
